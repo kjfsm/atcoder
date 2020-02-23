@@ -15,5 +15,5 @@ func main() {
 }
 
 func Calc(a int, b int, c int, s string) string {
-	return ""
+	return fmt.Sprintf("%d %s", a+b+c, s)
 }
